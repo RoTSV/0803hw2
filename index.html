@@ -23,13 +23,8 @@
             width: 221px;
             margin: 19px 89px 24px 90px;   
         }
-         a{
-            text-decoration: none;
-            display: block;   
-        }
         .nav-vmenu{
             list-style-type: none; 
-            position:absolute; 
         }
         .submenu {
             background-color: #212830;
@@ -44,14 +39,18 @@
             width: 187px;
         }
         .submenu a{
+            text-decoration: none;
             padding-top: 10px;
             color: #778ea1;
+            display: block;   
         }
         .submenu li{  
              font-size: 13px; 
              padding-left: 9px;
         }
         .a-nav{
+            text-decoration: none;
+            display: block;   
             background-color: #3a404c;
             padding-bottom: 11px;
             padding-top: 11px;
@@ -62,7 +61,6 @@
             box-shadow: 0 0 5px #202329;
             border-radius: 2px;
         }
-        
         button{
             background-color: #5e6573;
             color: #8b8e93;
@@ -74,13 +72,13 @@
             border-radius: 3px;
         }
         li.dws-li a i{
-            margin-right: 14px;
-            margin-left: 14px;
+            margin-right: 13px;
+            margin-left: 13px;
         }
     </style>
 </head>
 <body>
-    <nav class="backg-menu">
+    <div class="backg-menu">
         <nav class="ver-menu">
             <ul class="nav-vmenu">
                 <li class="dws-li"><a class="a-nav" href="#"><i class="fas fa-user"></i>Profile</a>
@@ -102,6 +100,6 @@
                 </li>
             </ul>  
         </nav>
-    </nav>
+    </div>
 </body>
 </html>
